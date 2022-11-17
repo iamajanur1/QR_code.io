@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/src/index.js"> </script>
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel = "icon" href = 
+    "/77QR.png" 
+            type = "image/x-icon">
+    <title>OR Code Generator</title>
+</head>
+<body>
+
+    <div class="grid">
+        <h2 align ="center">QR Code Generator</h2>
+        <center>
+        <img src="" id="img"></center>
+
+        <select id="size">
+            <option value="100">100x100</option>
+            <option value="150">150x150</option>
+            <option value="200">200x200</option>
+            <option value="250" selected>250x250</option>
+            <option value="300">300x300</option>
+            <option value="400">400x400</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Enter Your Text" id="qrtext"></textarea>
+        <br><br>
+        <input type="submit" value="Generate" onclick="genQR()">
+
+        <p>Developed By <b>Ajanur Rahman</b></p>
+
+
+
+    <!-- <select id="option">
+        <option value="google">google</option>
+        <option value="instagram">instagram</option>
+        <option value="Linkedin">Linkedin</option>
+        <option value="gmail">gmail</option>
+    </select>
+    <img id="img" src=""  />
+    <textarea id="inputtxt" rows="10" cols="20"></textarea>
+    <input type="submit" onclick="showIt()" value="Show me"> -->
+    
+
+</body>
+</html>
